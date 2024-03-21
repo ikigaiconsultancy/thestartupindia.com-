@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+</title>
+<link href="/css/main.css" rel="stylesheet" />
+<link href="/css/util.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
+      <style>
+        input,select,textarea{border:1px solid #CCCCCC!important;background-color: #fff7f7;color: black!important;font-size: 15px!important;}
+        .dis-block{width:100%;}
+        .fleft{float:left;}
+        .contact-text{font-size:10px;text-align:left;}
+        .error{color:red;}
+        .success{color:green;}
+        .wd200{width:200px;}
+        .wd123{width:123px;}
+        .wd195{width:195px;}
+         
+         .size15 { width: 100%;height: 30px;}
+         .size20 {min-height: 60px;}
+         .m-b-10 {margin-bottom: 5px;}
+         .mt15 { margin-top: 15px;}
+         .size2 { height: 30px;}
+         .p-b-20 { padding-bottom:0px;}
+        
+       
+    </style>
+  <script src="/js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnsubmit").click(function () {
+                $(this).hide();
+            });
+        });
+    
+    </script>
+   
+</head>
+<body>
+    <form name="form1" method="post" action="./?p=true" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<!-- <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ldikK/a307Py4uqgjY8djPbyySv7iyM7aSmiVscxPbiiXG0jHa+rMxHZxq6ujXIkqLVEh5Ik3V2/1sizho/eUzUZbcgmwTnp2MN3nsgOcnrpuMoKNOFQMFWOrKBt+vSxP3hhKvQQlMUnd4Le60qnIVWpbApDU9U0SxEsG3K7s7hdi4jkaLrhI1LouiOpPRG6jp+WXQ==" /> -->
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+<script src="/WebResource.axd?d=RTnPZ11F6jurcgtydPoNyn3pBeJQEPWdrlURy3tRuOALboEhsLQ5RbRwa_5zKtJTsB1WtX3nPUU2Tlv1jAdHeTC5By01&amp;t=637454267640000000" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=PGEtbN6ub5YoASW_g7MJReUno9i76L24uE-dWphBRmJTw6TI-H23mbuWBSlij14Gz3wDf8tWrzTyJjOL4OlEh6nDGPuEV_ftCLvEPZrPASXn4R3cKTWRIkU2HSAvX3KRfh9LDOoDDTlvyhj9xYyDwfRk0mI1&amp;t=2fe674eb" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EkvOSiu5vz6nZzoG1hqkYazAsMUwvkV_1ZEEET81wYWT_BamrUjm6xzY2Q3KvKHx22-gCwflkYRKM_lWfRVxxJTK1ODWmAojgp0SqqZ7qDWYp--GJ8IbA8Uad8nJF9TsrZUKZ5hKgi94tqKyuxl1DI_fVhnPoppsa7L8WA3YRxzjD75V0&amp;t=2fe674eb" type="text/javascript"></script>
+<div>
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="007F98A7" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="zswhOOYRev8l4jnf0aDaUCfGRSb1oJ47ALZ43E8befXeso3PF/6XTUfmXRQgtMOtOLeFiNMJ+W5v7jeNGN1KPv0tjm4ewsvQe9KHzKP/onMjTa5uNJgQcyunahtYPu5quQ1dzhRuRh1sqg3OOLxWLksjx+NWm63NXgZ9l11SGMeZVRDSzEOv7Mj9s/Tx0PTyp6UUVIf9EzMLlPI1B0dEhUdR9/sSX+S2tjY+M/Ak1+gNcWGIU+j/dIephmQuhRu6/XT+9vd50CRzSxwfItcVKoMbW5N4uRkfWsW/n8ELQFJyxNr1" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('SM1', 'form1', ['tUP1',''], [], [], 90, '');
+//]]>
+</script>
+        <h1 class="m-text22 p-b-20">CONTACT FORM </h1>
+        <div class="bo4 of-hidden size15 m-b-10">
+            <input name="txtname" type="text" id="txtname" title="Name" class="sizefull s-text7 p-l-22 p-r-22" autocomplete="off" placeholder="Name" />
+        </div>
+        <div class="bo4 of-hidden size15 m-b-10">
+            <input name="txtemail" type="text" id="txtemail" title="Email" class="sizefull s-text7 p-l-22 p-r-22" autocomplete="off" placeholder="Email" />
+        </div>
+        <div class="bo4 of-hidden size15 m-b-10">
+            <input name="txtmobile" type="text" id="txtmobile" title="Mobile" class="sizefull s-text7 p-l-22 p-r-22" autocomplete="off" placeholder="Mobile" />
+        </div>
+        <div class="bo4 of-hidden size15 m-b-10">
+            <input name="txtstate" type="text" id="txtstate" title="State" class="sizefull s-text7 p-l-22 p-r-22" autocomplete="off" placeholder="State" />
+        </div>
+        <div class="bo4 of-hidden size15 m-b-10">
+            <input name="txtcity" type="text" id="txtcity" title="City" class="sizefull s-text7 p-l-22 p-r-22" autocomplete="off" placeholder="City" />
+        </div>
+         <textarea name="txtmsg" rows="2" cols="20" id="txtmsg" title="Message" class="dis-block s-text7 bo4 p-l-22 p-r-22 p-t-13 m-b-10" autocomplete="off" placeholder="Message">
+</textarea>
+        <div class="m-b-10">
+            <div id="UP1">
+	
+                   
+                        <img id="imgCaptcha" src="/p/generate-captcha?637554754877146042" alt="Captcha" style="border-width:0px;" />
+                        <input name="txtcaptcha" type="text" maxlength="5" id="txtcaptcha" class="p-l-5 s-text7" placeholder="Captcha code" autocomplete="off" style="height:34px;width:120px;position:relative;top:-14px;" />
+                        <a id="btnRefresh" href="javascript:__doPostBack(&#39;btnRefresh&#39;,&#39;&#39;)" style="position:relative;top:-12px;"><i class="fa fa-refresh"></i></a>
+                    </div>
+                    
+                
+</div>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="mt15 m-b-10">
+            <span id="lblerrorcaptcha" class="errorlst"></span>
+        </div>
+         <div style="clear:both;"></div>
+        <div>
+            <!-- Button -->
+            <input type="submit" name="btnsubmit" value="Submit" id="btnsubmit" title="Submit" class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4" style="color:white!important;" />
+        </div>
+    </form>
+</body>
+</html>
